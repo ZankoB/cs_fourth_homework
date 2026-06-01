@@ -1,7 +1,5 @@
 # Results Entry Tables
 
-Use these tables to record measured metrics for each experiment configuration.
-
 ## Task 1 — Histogram (compute units: 2, 4, 8)
 
 | Compute Units | Kernel | loadLatencyDist::mean | vALUInsts | ldsBankAccess | totalCycles | vpc |
@@ -40,7 +38,3 @@ Use these tables to record measured metrics for each experiment configuration.
 | 4 | Uniform (sorted) | 60.620462 | 10.974078 | 1436 | 340 | 4 | 1664 |
 | 8 | Divergent | 33.496229 | 19.054518 | 1582 | 386 | 2 | 3104 |
 | 8 | Uniform (sorted) | 59.408072 | 12.576833 | 526 | 122 | 2 | 1664 |
-
----
-
-Record values from the **first** occurrence (or first two occurrences where instructed) of each metric in `stats.txt` as specified in the assignment.
